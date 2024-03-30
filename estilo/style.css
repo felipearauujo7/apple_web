@@ -4,9 +4,37 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    position: relative;
+}
+
 header h1 {
+    position: absolute;
     text-align: center;
     margin: 20px;
+}
+
+header #buttonlogin {
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+header #buttonlogin:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 nav {
@@ -39,6 +67,15 @@ nav ul li a {
     font-weight: 800;
 }
 
+section {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 #descricao {
     text-align: center;
     margin-top: 15px;
@@ -47,23 +84,25 @@ nav ul li a {
 
 section .imgiphone {
     text-align: center;
-}
-
-section {
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.imgiphone {
     margin: 10px; 
-    flex: 1 1 200px; 
+    flex: 1 1 200px;
 }
 
-section #iphoneRed {
-    display: block;
+section #buttonbuy {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: white;
+    color: #0077ED;
+    border: 1px solid #0077ED;
+    font-size: 20px;
+}
+
+section #buttonbuy:hover {
+    background-color: #0077ED;
+    color: white;
+    cursor: pointer;
 }
 
 #checkbox {
@@ -73,6 +112,18 @@ section #iphoneRed {
 
 .checkboxClass {
     margin-left: 15px;
+}
+
+#checkboxred {
+    accent-color: red;
+}
+
+#checkboxpurple {
+    accent-color: rgb(179, 119, 179);
+}
+
+#checkboxgreen {
+    accent-color: rgb(7, 80, 7);
 }
 
 #diviphonedeitado {
@@ -116,3 +167,4 @@ article h3 {
 #divdalogo img {
     max-width: 50%;
 }
+
