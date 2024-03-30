@@ -89,7 +89,7 @@ section {
 section .imgiphone img {
     max-width: 100%;
     text-align: center;
-    margin: 10px;
+    margin: 10px auto;
 }
 
 section #buttonbuy {
@@ -184,4 +184,10 @@ article h3 {
         right: auto;
         display: block; 
     }
+
+    section img {
+        max-width: 80%;
+        margin: 10px auto;
+    }
+
 }
