@@ -84,7 +84,7 @@ section {
 
 section .imgiphone {
     text-align: center;
-    margin: 10px; 
+    margin: 10px;
     flex: 1 1 200px;
 }
 
@@ -168,3 +168,16 @@ article h3 {
     max-width: 50%;
 }
 
+@media screen and (max-width: 520px) {
+    header h1 {
+        position: static;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    header #buttonlogin {
+        position: static; 
+        right: auto;
+        display: block; 
+    }
+}
