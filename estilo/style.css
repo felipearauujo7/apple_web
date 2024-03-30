@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -82,10 +86,10 @@ section {
     padding: 5px;
 }
 
-section .imgiphone {
+section .imgiphone img {
+    max-width: 100%;
     text-align: center;
     margin: 10px;
-    flex: 1 1 200px;
 }
 
 section #buttonbuy {
