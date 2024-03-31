@@ -6,5 +6,5 @@ buy.addEventListener("click", () => {
 });
 
 login.addEventListener("click", () => {
-    alert("Obrigado pela preferência. Somos uma página DEMO")
+    window.location.href = "https://wa.me/89999419339";
 });

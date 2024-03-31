@@ -19,6 +19,7 @@ mac.addEventListener("click", function() {
     iphonePurple.style.display = 'none';
     iphoneRed.style.display = 'none';
     iphoneGreen.style.display = 'none';
+    macbookDuplo.style.display = 'none';
     ipadblue.style.display = 'none';
     ipadgray.style.display = 'none';
     ipadpink.style.display = 'none';

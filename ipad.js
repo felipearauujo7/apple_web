@@ -8,30 +8,70 @@ var checkboxBlue = document.querySelector('#checkboxBlue');
 var checkboxGray = document.querySelector('#checkboxGray');
 var checkboxPink = document.querySelector('#checkboxPink');
 
-ipad.addEventListener("click", function() {
+/*ipad.addEventListener("click", function() {
+    
+    
+    macbookFrente.style.display = 'none';
+    ipadpink.style.display = 'none';
+    ipadgray.style.display = 'none'; 
     ipadblue.style.display = 'block';
     checkbox.style.display = 'none';
-    checkboxIpad.style.display = 'block'
+    checkboxIpad.style.display = 'block';
     macbookDuplo.style.display = 'none';
     divbotoesmac.style.display = 'none';
     iphonePurple.style.display = 'none';
     iphoneRed.style.display = 'none';
     iphoneGreen.style.display = 'none';
+    ipadgray.sty.display = 'none';
     macbookfundoblack.style.display = 'none';
     h2descricao.textContent = 'Ipad Pro"';
     pdescricao.textContent = 'Supercharged by M2';
     spanprice.textContent = '$499 - $999';
-    macbookFrente.style.display = 'none';
-    h3fundoblack.textContent = 'Adorável. Desenhavel. Mágico.';
+    macbookFrente.style.display = 'none'; 
+    h3fundoblack.textContent = 'Adorável. Desenhável. Mágico.';
     iphonefundoblack.style.display = 'none';
     ipadfundoblack.style.display = 'block';
-    h3about.textContent = 'Descubra o Ipad Pro: Experiencia Inexplicável';
+    h3about.textContent = 'Descubra o Ipad Pro: Experiência Inexplicável';
     pabout.textContent = 'O iPad é uma linha de tablets desenvolvida pela Apple Inc., que redefiniu a forma como interagimos com a tecnologia móvel. Desde o seu lançamento inicial em 2010, o iPad tem sido uma escolha popular para uma ampla gama de usuários, oferecendo uma combinação única de portabilidade, versatilidade e desempenho.';
 
+    checkboxBlue.checked = true;
+    checkboxGray.checked = false;
+    checkboxPink.checked = false;
+
+}); */
+
+ipad.addEventListener("click", function() {
+    ipadpink.style.display = 'none';
+    ipadgray.style.display = 'none'; 
+    ipadblue.style.display = 'block';
+    
+    checkbox.style.display = 'none';
+    checkboxIpad.style.display = 'block';
+    macbookDuplo.style.display = 'none';
+    divbotoesmac.style.display = 'none';
+    iphonePurple.style.display = 'none';
+    iphoneRed.style.display = 'none';
+    iphoneGreen.style.display = 'none';
+    ipadgray.style.display = 'none';
+    macbookfundoblack.style.display = 'none';
+    h2descricao.textContent = 'Ipad Pro"';
+    pdescricao.textContent = 'Supercharged by M2';
+    spanprice.textContent = '$499 - $999';
+    macbookFrente.style.display = 'none'; 
+    h3fundoblack.textContent = 'Adorável. Desenhável. Mágico.';
+    iphonefundoblack.style.display = 'none';
+    ipadfundoblack.style.display = 'block';
+    h3about.textContent = 'Descubra o Ipad Pro: Experiência Inexplicável';
+    pabout.textContent = 'O iPad é uma linha de tablets desenvolvida pela Apple Inc., que redefiniu a forma como interagimos com a tecnologia móvel. Desde o seu lançamento inicial em 2010, o iPad tem sido uma escolha popular para uma ampla gama de usuários, oferecendo uma combinação única de portabilidade, versatilidade e desempenho.';
+
+    
+    checkboxBlue.checked = true;
+    checkboxGray.checked = false;
+    checkboxPink.checked = false;
 });
 
 checkboxBlue.addEventListener("change", function () {
-    if(this. checked) {
+    if(this.checked) {
         ipadpink.style.display = 'none';
         ipadblue.style.display = 'block';
         ipadgray.style.display = 'none';
@@ -42,23 +82,23 @@ checkboxBlue.addEventListener("change", function () {
 })
 
 checkboxGray.addEventListener("change", function () {
-    if(this. checked) {
+    if(this.checked) {
         ipadpink.style.display = 'none';
         ipadblue.style.display = 'none';
         ipadgray.style.display = 'block';
         checkboxGray.style.accentColor = 'gray';
         checkboxPink.checked = false;
         checkboxBlue.checked = false;
-    }
+    } 
 })
 
 checkboxPink.addEventListener("change", function () {
-    if(this. checked) {
+    if(this.checked) {
         ipadpink.style.display = 'block';
         ipadblue.style.display = 'none';
         ipadgray.style.display = 'none';
         checkboxPink.style.accentColor = 'pink';
         checkboxGray.checked = false;
         checkboxBlue.checked = false;
-    }
+    } 
 })
