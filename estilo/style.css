@@ -51,7 +51,10 @@ nav {
     box-shadow: 0px 0px 10px #00000073;
     position: sticky;
     top: 0;
-    
+}
+
+nav:hover {
+    cursor: pointer;
 }
 
 nav ul li {
@@ -60,13 +63,14 @@ nav ul li {
     margin-left: 25px;
 }
 
-nav ul li a:hover {
+nav ul li:hover {
+    cursor: pointer;
     color: white;
     text-shadow: 0px 0px 5px black;
     font-size: 16px;
 }
 
-nav ul li a {
+nav ul li  {
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -95,6 +99,20 @@ section .imgiphone img {
     margin: 10px auto;
 }
 
+section .imgmacbook {
+    max-width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    display: none;
+}
+
+section .imgipad {
+    max-width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    display: none;
+}
+
 section #buttonbuy {
     width: 100px;
     height: 50px;
@@ -117,7 +135,17 @@ section #buttonbuy:hover {
     text-align: center;
 }
 
+#checkboxIpad {
+    flex: 1 1 100%;
+    text-align: center;
+    display: none;
+}
+
 .checkboxClass {
+    margin-left: 15px;
+}
+
+.checkboxClassIpad {
     margin-left: 15px;
 }
 
@@ -133,7 +161,30 @@ section #buttonbuy:hover {
     accent-color: rgb(7, 80, 7);
 }
 
-#diviphonedeitado {
+#divbotoesmac {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.botoesmac {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 10px;
+}
+
+.botoesmac:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#divfundoblack {
     width: 100%;
     background-color: black;
     padding: 20px;
@@ -143,17 +194,21 @@ section #buttonbuy:hover {
     flex-wrap: wrap;
 }
 
-#diviphonedeitado img {
+#divfundoblack img {
     max-width: 100%;
     height: auto;
 }
 
-#diviphonedeitado h3 {
+#divfundoblack #h3divfundoblack {
     color: white;
     text-align: center;
     margin-top: 20px;
-    font-size: 50px;
-    font-weight: 100;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+#divfundoblack #macbookfundoblack, #ipadfundoblack {
+    display: none;
 }
 
 article {
@@ -173,6 +228,20 @@ article h3 {
 
 #divdalogo img {
     max-width: 50%;
+}
+
+#divvisionpro {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divvisionpro img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px; 
 }
 
 @media screen and (max-width: 520px) {

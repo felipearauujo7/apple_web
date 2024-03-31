@@ -4,10 +4,16 @@ var iphonePurple = document.querySelector('#iphonePurple');
 var checkboxRed = document.querySelector('#checkboxred');
 var checkboxGreen = document.querySelector('#checkboxgreen');
 var checkboxPurple = document.querySelector('#checkboxpurple');
+var homenav = document.querySelector("#homenav");
 
 iphonePurple.style.display = 'block';
 iphoneRed.style.display = 'none';
 iphoneGreen.style.display = 'none';
+divbotoesmac.style.display = 'none';
+
+homenav.addEventListener("click", function() {
+    location.reload();
+})
 
 checkboxGreen.addEventListener("change", function () {
     if(this. checked) {

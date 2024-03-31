@@ -13,19 +13,39 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Mac</a></li>
-            <li><a href="#">Ipad</a></li>
+            <li id="homenav">Home</li>
+            <li id="macnav" >Mac</li>
+            <li id="ipadnav">Ipad</li>
+            <li>About</li>
         </ul>
     </nav>
         
     <div id="descricao">
-        <h2>Iphone 14</h2>
-        <p>128gb</p>
+        <h2 id="h2descricao">Iphone 14</h2>
+        <p id="pdescricao">128gb</p>
     </div>
 
     <section>
+
+        <div class="imgipad" id="ipadblue">
+            <img src="imagens/ipadblue.png" alt="">
+        </div>
+
+        <div class="imgipad" id="ipadgray">
+            <img src="imagens/ipadgray.png" alt="">
+        </div>
+
+        <div class="imgipad" id="ipadpink">
+            <img src="imagens/ipadpink.png" alt="">
+        </div>
+
+        <div class="imgmacbook" id="macbookfrente">
+            <img src="imagens/macbookfrente.png" alt="">
+        </div>
+
+        <div class="imgmacbook" id="macbookduplo">
+            <img src="imagens/macbookduplo.png" alt="">
+        </div>
         
         <div id="iphoneGreen" class="imgiphone">
             <img src="imagens/iphone14green.png" alt="">
@@ -38,6 +58,11 @@
         <div id="iphonePurple" class="imgiphone">
             <img src="imagens/iphone14purple.png" alt="">
         </div>
+
+        <div id="divbotoesmac">
+            <button id="botaomacprevious" class="botoesmac"><</button>
+            <button id="botaomacnext" class="botoesmac">></button>
+        </div>
         
         <div id="checkbox">
             <input type="checkbox" id="checkboxred" class="checkboxClass">
@@ -48,25 +73,48 @@
             <span>Green</span>
         </div>
 
-        <span style="font-weight: 800;">$800 - $1100</span>
+        <div id="checkboxIpad">
+            <input type="checkbox" id="checkboxBlue" class="checkboxClassIpad">
+            <span>Blue</span>
+            <input type="checkbox" id="checkboxGray" class="checkboxClassIpad">
+            <span>Gray</span>
+            <input type="checkbox" id="checkboxPink" class="checkboxClassIpad">
+            <span>Pink</span>
+        </div>
+
+        <span id="spanprice" style="font-weight: 800;">$800 - $1100</span>
         <button id="buttonbuy">Buy</button>
 
     </section>
         
-    <div id="diviphonedeitado">
-        <h3>Design Deslumbrante</h3>
-        <img src="imagens/iphonedeitado.png" alt="">
+    <div id="divfundoblack">
+        <h3 id="h3divfundoblack">Design Deslumbrante</h3>
+        <img id="iphonefundoblack" src="imagens/iphonedeitado.png" alt="">
+        <img id="macbookfundoblack" src="imagens/macbookfundoblack.jpg" alt="">
+        <img src="imagens/ipadfundoblack.jpg" alt="" class="" id="ipadfundoblack">
     </div>
 
     <article>
-        <h3>Descubra o iPhone 14: O Futuro na Palma da Sua Mão</h3>
-        <p>O iPhone 14 é a próxima evolução em tecnologia móvel, combinando design elegante, desempenho poderoso e recursos inovadores. Com sua construção premium, tecnologia avançada e compromisso com a sustentabilidade, o iPhone 14 oferece uma experiência móvel incomparável. Prepare-se para descobrir o futuro com o iPhone 14.</p>
+        <h3 id="h3about">Descubra o iPhone 14: O Futuro na Palma da Sua Mão</h3>
+        <p id="pabout">O iPhone 14 é a próxima evolução em tecnologia móvel, combinando design elegante, desempenho poderoso e recursos inovadores. Com sua construção premium, tecnologia avançada e compromisso com a sustentabilidade, o iPhone 14 oferece uma experiência móvel incomparável. Prepare-se para descobrir o futuro com o iPhone 14.</p>
     </article>
 
     <div id="divdalogo">
         <img src="imagens/logo.png" alt="">
     </div>
 
+    <div id="divvisionpro">
+        <img src="imagens/visionpro.jpg" alt="">
+    </div>
+
+    <article>
+        <h3 id="h3about">Vision Pro: Uma Janela para o Mundo Virtual</h3>
+        <p id="pabout">O Vision Pro da Apple é mais do que um dispositivo de realidade virtual; é uma porta de entrada para um mundo de possibilidades infinitas. Combinando tecnologia avançada e design elegante, o Vision Pro oferece uma experiência imersiva como nenhuma outra. Explore paisagens exuberantes, mergulhe em aventuras emocionantes e conecte-se com amigos de todo o mundo, tudo isso sem sair do conforto do seu lar. Com o Vision Pro, a realidade virtual ganha vida de uma maneira totalmente nova, permitindo que você descubra um universo de entretenimento e criatividade. Prepare-se para mergulhar em um mundo virtual onde as possibilidades são infinitas com o Vision Pro da Apple.</p>
+    </article>
+
     <script src="script.js"></script>
+    <script src="mac.js"></script>
+    <script src="ipad.js"></script>
+    <script src="saudacao.js"></script>
 </body>
 </html>
