@@ -19,7 +19,12 @@ mac.addEventListener("click", function() {
     iphonePurple.style.display = 'none';
     iphoneRed.style.display = 'none';
     iphoneGreen.style.display = 'none';
+    ipadblue.style.display = 'none';
+    ipadgray.style.display = 'none';
+    ipadpink.style.display = 'none';
     checkbox.style.display = 'none';
+    ipadfundoblack.style.display = 'none';
+    checkboxIpad.style.display = 'none';
     h2descricao.textContent = 'MacBook Pro 14"';
     pdescricao.textContent = 'M3 max chip';
     spanprice.textContent = '$999 - $1599';
