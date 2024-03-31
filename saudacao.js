@@ -6,5 +6,5 @@ buy.addEventListener("click", () => {
 });
 
 login.addEventListener("click", () => {
-    window.location.href = "https://wa.me/89999419339";
+    window.location.href = "https://wa.me/5589999419339";
 });
